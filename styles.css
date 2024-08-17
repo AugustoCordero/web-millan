@@ -1,0 +1,164 @@
+h1{
+    
+    z-index: inherit;
+    text-align: center;
+    text-shadow: 2cap;
+    text-decoration-color: rgb(38, 255, 0);
+    text-size-adjust: 55px;
+    color: rgb(17, 255, 0);
+    font-size: 85px;
+        
+}
+.cartel1{
+
+    float: left;
+    width: 250px;
+    margin-top: 0;
+
+
+}
+body{
+    
+    background: linear-gradient(to right, black 65%,rgba(214, 45, 45, 0.897));
+      
+}
+
+.presentacion{
+    color: aliceblue;
+    float: none;
+    text-align:center;
+    margin: 50px;
+    img{
+        text-align: center
+    }
+    h2{
+        color:rgb(17, 255, 0) ;
+        font-size: 3em;
+    }
+
+}
+.presentacion img{
+    width: 35em;
+    position: calc(35%);
+    
+}
+p{
+    color: aliceblue;
+    font-size: 2em;
+}
+.video{
+    display: grid;
+    columns: 2;
+    grid-template-rows: repeat(100px);
+    justify-content: space-between;
+    margin: 12px;
+    grid-row: span;
+
+}
+.video p{
+    color: aliceblue;
+    font-size: 2em;
+    text-align:center;
+    
+   
+}
+
+.redessociales{
+   display: grid;
+   grid-template-columns: repeat(20em);
+    grid-template-rows: repeat(20em);
+    justify-content: space-between;
+    margin: 12px;
+    
+    
+    color:rgb(17, 255, 0);
+
+}
+
+.redessociales div{
+   
+    margin: 2em;
+    text-align: center;
+    float: right;
+}
+.redessociales div img{
+    width: 22em;
+}
+.redessociales div p{
+    color: aliceblue;
+    font-size: 2em;
+    padding-bottom: 3em;
+}
+.mapa{
+ width: 100%;   
+ display: grid;   
+ margin-top: 25%;
+ grid-template-columns: repeat(200px);
+ grid-template-rows: repeat(200px);
+ justify-content: space-between;
+
+}
+.mapa > div{
+     color: aliceblue;
+}
+
+
+.entrada{
+    
+    color: azure;
+    font-size: 17px;
+    float: right;
+    margin: 15px;
+    text-align: left;
+    font-size: 25px;
+
+}
+.entrada img{
+    float: right;
+    max-width: 45%;
+}
+.entrada h3{
+    font-size: 35px;
+    color: rgb(38, 255, 0);
+
+}
+.barraNavegacion{
+    width: 100%;
+    background: linear-gradient(to right,rgba(214, 45, 45, 0.897), black 55%);
+    overflow: auto;
+    
+
+}
+.barraNavegacion a{
+    float: left;
+    padding: 12px;
+   text-decoration: none;
+    color: white;
+}
+.barraNavegacion a:hover{
+    background-color: rgb(38, 255, 0);
+}
+img{
+    float: right;
+    width: 400px;
+    border:solid;
+    
+}
+footer{
+    margin-top: 5em;
+    font-size: 2em;
+    color: aliceblue;
+    background: linear-gradient(to right,rgba(214, 45, 45, 0.897), black 55%);
+    position:bottom;
+    left: 0%;
+    bottom: 0%;
+    width: 100%;
+    text-align:center;
+}
+footer a img{
+    width: 100px;
+    display: flex;
+}
+footer h3{
+    text-align: center;
+}
